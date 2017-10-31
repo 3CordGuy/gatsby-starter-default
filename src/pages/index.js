@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Thing from '../components/Thing'
 
 const IndexPage = () => (
   <div>
+    <Thing />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
